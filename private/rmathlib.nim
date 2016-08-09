@@ -23,10 +23,10 @@ proc get_seed(a2: ptr cuint; a3: ptr cuint) {.cdecl, importc: "get_seed",
 proc dnorm(a2: cdouble; a3: cdouble; a4: cdouble; a5: cint): cdouble {.cdecl,
     importc: "dnorm4", dynlib: rmathlib.}
 proc pnorm(a2: cdouble; a3: cdouble; a4: cdouble; a5: cint; a6: cint): cdouble {.cdecl,
-    importc: "pnorm", dynlib: rmathlib.}
+    importc: "pnorm5", dynlib: rmathlib.}
 proc qnorm(a2: cdouble; a3: cdouble; a4: cdouble; a5: cint; a6: cint): cdouble {.cdecl,
-    importc: "qnorm", dynlib: rmathlib.}
-proc rnorm(a2: cdouble; a3: cdouble): cdouble {.cdecl, importc: "rnorm",
+    importc: "qnorm5", dynlib: rmathlib.}
+proc Rf_rnorm(a2: cdouble; a3: cdouble): cdouble {.cdecl, importc: "rnorm",
     dynlib: rmathlib.}
 proc pnorm_both(a2: cdouble; a3: ptr cdouble; a4: ptr cdouble; a5: cint; a6: cint) {.cdecl,
     importc: "pnorm_both", dynlib: rmathlib.}

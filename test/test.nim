@@ -15,3 +15,9 @@ echo y
 
 var a=dnorm(0.0)
 echo a
+
+var pn=pnorm(1.96,0.0,1.0,true,false)
+echo pn
+
+var qn=qnorm(0.5)
+echo qn
