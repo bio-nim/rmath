@@ -1,6 +1,6 @@
 # rmath
 
-This repository comprises of Nim bindings to [libRmath](http://github.com/sdwfrost/libRmath-nim), which has been patched to provide a cleaner interface to Nim.
+This repository comprises of Nim bindings to [libRmath](http://github.com/sdwfrost/libRmath-nim), a local fork of libRmath patched by the Julia developers to use a faster random number generator.
 
 This is currently a work in progress, and while the low-level wrapper is mostly complete, the high level wrappers have yet to be written.
 
@@ -57,3 +57,8 @@ The above should give something like the following.
 -0.1727166441552057
 0.9499564787512947
 ```
+
+## Future work
+
+- Generate wrappers that convert types.
+- Implement higher level wrappers modelled from Julia's [Distributions.jl](https://github.com/JuliaStats/Distributions.jl) package.
