@@ -12,3 +12,6 @@ echo z
 
 var y=pchisq(3.84,1,true,false)
 echo y
+
+var a=dnorm(0.0)
+echo a
