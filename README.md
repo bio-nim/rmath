@@ -16,7 +16,7 @@ You will need to ensure that the shared library (libRmath-nim.dylib, libRmath-ni
 
 ## Installation
 
-The package can be installed using [nimble]().
+The package can be installed using [nimble](https://github.com/nim-lang/nimble).
 
 ```sh
 git clone http://github.com/sdwfrost/rmath.git
